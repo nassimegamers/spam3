@@ -29,15 +29,6 @@ client.on('message', message => {
   }
 
 
-});
-client.on('message', message
-
-client.on('message', message => {
-    if(message.content === '-راتب'){
-        message.channel.send('#daily')
-    }
-});
-
 client.on('message', message => {
     if(message.content === '-مبلغ'){
         message.channel.send('#credits')
